@@ -1,0 +1,64 @@
+.vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.in_container{
+    background-color: rgb(241, 241, 208);
+    border: 3px solid black;
+    gap: 10px;
+}
+
+#main {
+    border: solid black 1px;
+    border-radius: 30px;
+    background-color:midnightblue;
+    width: 58em;
+    height: 25em;
+}
+
+#music_player {
+    border: solid black 1px;
+    border-radius: 30px;
+    background-color:midnightblue;
+    width: 50px;
+    height: 35px;
+}
+
+#output_monitor {
+    border: solid black 1px;
+    background-color: rgb(231, 231, 231);
+    width: 55em;
+    height: 20em;
+}
+
+#output {
+    padding: 10px;
+}
+
+body {
+    background-image:url(ressources/images/wallpaper.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-size:100% 100%;
+}
+
+button {
+    border-radius: 5px;
+}
